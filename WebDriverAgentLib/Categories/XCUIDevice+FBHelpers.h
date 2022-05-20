@@ -126,6 +126,9 @@ typedef NS_ENUM(NSUInteger, FBUIInterfaceAppearance) {
                             duration:(NSTimeInterval)duration
                                error:(NSError **)error;
 
+- (BOOL)fb_synthTapWithX:(CGFloat)x
+  y:(CGFloat)y;
+
 /**
  Allows to set device appearance
 
